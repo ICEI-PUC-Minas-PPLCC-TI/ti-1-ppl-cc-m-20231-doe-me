@@ -4,13 +4,13 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
- *Catarina França de Moura Castro
- *Thiago Rezende Aguiar
- *Oliver Haas Bottcher
- *Fernando Gonçalves Oliveira Costa
- *Filipe Lorenzato Cardoso Rodrigues
- *Luan Carlos Coelho Garrido
- *Luigi Louback de Oliveira
+ * Catarina França de Moura Castro
+ * Thiago Rezende Aguiar
+ * Oliver Haas Bottcher
+ * Fernando Gonçalves Oliveira Costa
+ * Filipe Lorenzato Cardoso Rodrigues
+ * Luan Carlos Coelho Garrido
+ * Luigi Louback de Oliveira
 
 ## Professores responsáveis
 
