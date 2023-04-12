@@ -1,13 +1,16 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10832239&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
+# Doe.me
 Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+ *Catarina França de Moura Castro
+ *Thiago Rezende Aguiar
+ *Oliver Haas Bottcher
+ *Fernando Gonçalves Oliveira Costa
+ *Filipe Lorenzato Cardoso Rodrigues
+ *Luan Carlos Coelho Garrido
+ *Luigi Louback de Oliveira
 
 ## Professores responsáveis
 
