@@ -89,38 +89,19 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Segundo o Laboratório de Desigualdades, Pobreza e Mercado de trabalho da PUC-RS, [11,7 milhões de brasileiros entraram em situação de pobreza nos anos de 2020 e 2021, durante a pandemia da COVID 19](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf). Isso implica em um aumento de 5,5 pontos percentuais na taxa de pobreza social, que alcançou 30,4% da população. Tal situação é consequência de problemas sociais de complexidade imensa, como a desigualdade social, o preconceito de classe, o racismo, entre outros.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Visto isso, a equipe percebeu a necessidade de busca por soluções. Notou-se que, por mais que a situação estivesse fora do alcance de estudantes universitários, era possível utilizar das habilidades de Programação e Lógica Computacional a fim de possibilitar um caminho que trouxesse benefícios para dois setores sociais distintos: aqueles que precisam se livrar de objetos sem uso em suas casas, e aqueles que passam por dificuldades financeiras e sociais e podem fazer uso desses objetos. Além disso, a ideia de se livrar de objetos permitiu que também fossem implementados funcionalidades relacionados a reciclagem e a reutilização de lixo.
+
+Assim, concretizou-se o Doe.me, a plataforma de comunicação entre doador e beneficente. Por mais que a aplicação em si não seja suficiente para solucionar o problema de desigualdade e de pobreza no Brasil, é um caminho que permite que a própria população tenha ação direta sobre o problema e ainda tenha benefícios ao o fazer.
+
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público alvo do Doe.me consiste em dois grupos distintos: pessoas que precisam se livrar de objetos sem uso e pessoas que precisam desses objetos devido a dificuldades financeiras e sociais.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+* O primeiro grupo abrange pessoas de classe média e de classe alta, homens e mulheres, entre 18 e 70 anos de idade, que estão inseridos minimamente no contexto da internet. Esse público busca se livrar de objetos sem uso em suas casas, a fim de viver uma vida mais organizada e/ou de ajudar pessoas necessitadas.
+* O segundo grupo é composto por pessoas de classe baixa, em situação e vulnerabilidade social e/ou de pobreza. São homens e mulheres entre 18 e 70 anos de idade, que devido ao contexto social que estão inseridos, dependem de ajuda financeira e material, e podem usufruir das funcionalidades da aplicação como forma de apoio.
  
 # Especificações do Projeto
 
@@ -469,7 +450,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+[BAGOLIN, Izete Pengo; SALATA, André; MATTOS, Ely José de. **Pobreza Social no Brasil: 2012-2021.** Laboratório de Desigualdades, Pobreza e Mercado de Trabalho – PUCRS Data Social. Porto Alegre, 2022.](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf)
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
