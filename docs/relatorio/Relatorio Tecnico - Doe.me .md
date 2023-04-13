@@ -1,21 +1,25 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+DOE.ME
 
-`CURSO` 
+`CURSO`
 
-......  COLOQUE AQUI O SEU TEXTO ......
+CIÊNCIA DA COMPUTAÇÃO (MANHÃ)
+
+TRABALHO INTERDISCIPLINAR I: FRONT-END - 3581100
+
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Catarina França de Moura Castro
+> - Thiago Rezende Aguiar
+> - Oliver Haas Böttcher
+> - Fernando Gonçalves Oliveira Costa
+> - Filipe Lorenzato Cardoso Rodrigues
+> - Luan Carlos Coelho Garrido
+> - Luigi Louback de Oliveira
 
 # Estrutura do Documento
 
@@ -56,36 +60,20 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A aplicação busca resolver a dificuldade de conectar pessoas que querem doar ou reciclar objetos com organizações e indivíduos que precisam desses itens. Muitas vezes, as pessoas não sabem onde podem doar ou reciclar objetos específicos e acabam jogando-os fora, o que contribui para o aumento do lixo e do desperdício. Além disso, há pessoas e organizações que precisam de doações específicas, mas não têm acesso a uma plataforma que facilite essa conexão.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A aplicação será utilizada por pessoas e organizações que querem doar, reciclar ou receber doações de objetos variados. O contexto de uso inclui empresas, organizações sem fins lucrativos e indivíduos que desejam contribuir para a sustentabilidade do meio ambiente e para a melhoria da vida de pessoas necessitadas. As tecnologias utilizadas na aplicação incluem bancos de dados, sistemas de busca, mapas e recursos de comunicação.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O objetivo geral deste trabalho é desenvolver uma aplicação que facilite e dinamize o processo de doação, reciclagem e reutilização de objetos variados, conectando doadores e beneficiários.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podem ser listados:
+1. Desenvolver um sistema de busca eficiente que permita aos usuários encontrar organizações, pessoas e pontos de coleta específicos para os itens que desejam doar ou reciclar.
+2. Permitir que os usuários possam postar pedidos por doações específicas, facilitando a conexão entre doadores e beneficiários e tornando o processo mais dinâmico e interativo.
+3. Facilitar o processo de doação de itens que não são mais necessários para seus proprietários, conectando-os com organizações e indivíduos que possam fazer uso dos mesmos, ajudando a reduzir o desperdício e contribuindo para a sustentabilidade ambiental.
+
+Esses objetivos permitirão que a aplicação atenda às necessidades dos usuários de forma eficiente e eficaz, tornando o processo de doação e reciclagem de objetos mais fácil e acessível para todos.
 
 ## Justificativa
 
@@ -105,11 +93,9 @@ O público alvo do Doe.me consiste em dois grupos distintos: pessoas que precisa
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+  Nesse projeto, nosso grupo visa, através de um aplicativo de doações, alcançar e ajudar pessoas que precisam ganhar espaço e organização nas suas casas e principalmente, repassar esses itens doados para pessoas que necessitam em suas vidas.
+  Identificamos as dores das pessoas, para saber mais precisamente do que elas precisavam, fizemos isso através de entrevistas com várias cidadãos, pais e mães, homens e mulheres na faixa etária dos seus 35 à 50 anos. Por meio dessas entrevistas, podemos concluir que aquilo que as pessoas mais precisam, é de ajuda para saber como descartar ou doar vários de seus itens que já não são utilizados, como roupas antigas, mobíbilas que já não tem mais espaço em suas casas e também produtos eletrônicos, que necessitam de um tipo de descarte específico.
+  Portanto, atráves do nosso aplicativo doe.me, as pessoas teriam mapas com pontos de descarte nas suas cidades e também poderiam colocar seus itens em forma de "anúncio", assim caso alguém que necessite daquele item, tiver interesse, eles poderam conversar através do chat do aplicativo, facilitando assim sua comunicação e ajudando ambas partes.
 
 ## Personas, Empatia e Proposta de Valor
 
