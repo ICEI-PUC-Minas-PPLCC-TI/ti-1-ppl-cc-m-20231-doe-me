@@ -2,7 +2,7 @@
 # Doe.me
 No contexto contemporâneo, as pessoas tem acumulado objetos em suas casas. Sejam peças de roupas, livros, ou equipamentos eletrônicos que tornaram-se obsoletos, há uma necessidade crescente de se desfazer dessas posses para manter a organização e qualidade de vida. Porém, com a rotina agitada do mundo moderno, a falta de tempo é um empecilho para solucionar esse problema. Além disso, muitas pessoas estão inseridas em contextos de vulnerabilidade social e econômica, e precisam de ajuda. Dessa forma, percebe-se uma dificuldade em encontrar correspondência entre quem doa e quem recebe.
 
-O Doe.me é uma plataforma de comunicação entre doador e beneficiário, que facilita e dinamiza o processo de doação, reciclagem e reutilização de objetos variados. Com o nosso simples sistema de busca, você pode encontrar organizações, pessoas, e pontos de coleta específicos para os itens que quer doar ou reciclar. O nosso mecanismo de mapa integrado ajuda na escolha de instituições participantes do projeto perto de você. Além disso, aos indivídos que necessitarem, o Doe.me permite a postagem de pedidos por doações específicas.
+O Doe.me é uma plataforma de comunicação entre doador e beneficiário, que facilita e dinamiza o processo de doação, reciclagem e reutilização de objetos variados. Com o simples sistema de busca, pode-se encontrar organizações, pessoas, e pontos de coleta específicos para os itens que quer doar ou reciclar. O mecanismo de mapa integrado ajuda na escolha de instituições participantes do projeto nas proximidades. Além disso, aos indivídos que necessitarem, o Doe.me permite a postagem de pedidos por doações específicas.
 
 ## Alunos integrantes da equipe
 
