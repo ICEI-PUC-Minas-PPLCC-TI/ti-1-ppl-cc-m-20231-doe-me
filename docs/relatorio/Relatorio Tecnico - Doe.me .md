@@ -141,8 +141,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Mãe solteira de 2 filhos  | Doar roupas e brinquedos velhos dos meus filhos           | Para organizar melhor a casa               |
+|Empregada doméstica       | Apoio financeiro/material                 | Ajudar nas dificuldades financeiras habituais |
+|Aposentado preocupado com o meio ambiente       | Uma forma melhor de reciclar meu lixo                 | Ajudar mais o meio ambiente |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
