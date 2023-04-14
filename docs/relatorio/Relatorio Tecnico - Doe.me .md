@@ -258,68 +258,53 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A metodologia adotada pelo nosso grupo para o desenvolvimento da aplicação de doações foi baseada em metodologias ágeis, com ênfase na implementação do Framework Scrum.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+1. **Processo de Design Thinking:**
+Antes de iniciarmos o desenvolvimento da aplicação, passamos por um processo de Design Thinking para entender as necessidades dos usuários e definir os requisitos do produto. Essa fase foi conduzida por todo o grupo que buscou entender o público-alvo do programa.
+Durante essa etapa, realizamos entrevistas e coletamos feedbacks. Com base nessas informações, realizamos um brainstorming para gerar ideias e, em seguida, selecionamos as melhores ideias para serem implementadas. Dessa forma, garantimos que a protótipo atendesse às necessidades dos usuários.
+
+2. **Framework Scrum:**
+Para gerenciar o desenvolvimento da aplicação, implementamos o Framework Scrum. Definimos o Scrum Master, que será responsável por liderar o processo.
+Durante as sprints, realizamos reuniões semanais de acompanhamento do projeto, nas quais discutíamos o andamento das tarefas e possíveis impedimentos. As sprints eram planejadas com base nas listas de prioridades, e a equipe se comprometia a entregar as tarefas planejadas para cada sprint.
+
+3. **Ferramentas:**
+Para acompanhar o andamento do projeto e a execução das tarefas, utilizamos o Google Drive e seus Documentos, ferramentas onlines de compartilhamento de textos. Nesse ambiente, criamos um arquivo com as listas "A fazer", "Concluído" e "Projetos Futuros", para acompanharmos o status de cada tarefa.
+Para a gestão de configuração do projeto, utilizamos o GitHub. A aplicação foi hospedada no Git, e cada desenvolvedor trabalhava em seu próprio escopo local, adicionando commits antes de fazer o merge com a branch principal. Dessa forma, garantimos que as mudanças feitas por cada desenvolvedor fossem revisadas antes de serem integradas ao código principal.
+
+Ao adotarmos metodologias ágeis como o Scrum, e utilizar ferramentas como o GitHub, conseguimos manter o projeto organizado e com um bom ritmo de desenvolvimento. A gestão de configuração do projeto via GitHub também permitiu que pudéssemos trabalhar de forma colaborativa e garantir a qualidade do código produzido.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+**Product Owner:** Professores da disciplina 
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+**Scrum Master:** Catarina F. M. Castro
 
+**Equipe:**
+* Thiago Rezende Aguiar
+* Oliver Haas Bottcher
+* Fernando Gonçalves Oliveira Costa
+* Filipe Lorenzato Cardoso Rodrigues
+* Luan Carlos Coelho Garrido
+* Luigi Louback de Oliveira
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|:---:      |:---:                    |          :---:|
+|Processo de Design Thinking  | Miro |  [https://miro.com](https://miro.com/app/board/uXjVMYD9yIU=/?openNotes) | 
+|Repositório de código | GitHub | [https://github.com](https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20231-doe-me) |  
+|Protótipo Interativo | Figma | [https://figma.com](https://www.figma.com/proto/OybBWroxTq8trEZTc0lEaM/TI?node-id=103-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=103%3A2) | 
+| Editor de Código | Visual Code Studio | [https://code.visualstudio.com](https://code.visualstudio.com/) |
+| Plataforma de Comunicação | Discord | [https://discord.com](https://discord.com/) |
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+As ferramentas empregadas no projeto são:
+
+* Editor de código
+* Ferramentas de comunicação
+* Ferramentas de diagramação
+
+O Visual Studio Code e o GitHub foram escolhido como plataformas para edição do código devido a sua integração fácil e modelo intuitivo. O discord foi utilizado como ferramenta de comunicação, por causa do sistema de separação de canais de texto e de audio. O Figma foi escolhido como plataforma de criação de wireframes por causa da interface intuitiva e do acesso fácil ao código em CSS. E, por fim, para criar diagramas, foi utilizado o Miro, por causa da capacidade de trabalho em conjunto.
 
 ## Controle de Versão
 
