@@ -100,13 +100,16 @@ O público alvo do Doe.me consiste em dois grupos distintos: pessoas que precisa
 ## Personas, Empatia e Proposta de Valor
 
 As personas do nosso projeto estão inseridos em diferentes contextos sociais e dessa forma também possuem pensamentos distintos entre si.
-Aqui estão algumas informações a respeito das personas presentes em nosso projeto.
+Aqui estão algumas informações a respeito de cada uma das personas presentes em nosso projeto.
 
-[Persona 1 : Vanessa](https://drive.google.com/file/d/1YY3TFyYeU8xGwM8BGRQvY4EOpCpDFVan/view?usp=share_link)
+![Persona 1 : Vanessa](images/personaVanessa)
 
-[Persona 2: Neide](https://drive.google.com/file/d/1YY3TFyYeU8xGwM8BGRQvY4EOpCpDFVan/view?usp=share_link)
 
-[Persona 3: Inácio](https://drive.google.com/file/d/1wN6XjZx2GOYWzQKkR8zHVUASR2zdwyCL/view?usp=share_link)
+![Persona 2: Neide](images/personaNeide)
+
+
+![Persona 3: Inácio](images/personaInacio)
+
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
 > mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
