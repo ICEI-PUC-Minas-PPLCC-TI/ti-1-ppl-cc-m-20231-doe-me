@@ -192,7 +192,7 @@ Para a montagem da interface do sistema, estabeleceu-se uma solução com foco e
 
 O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Figma do projeto.](https://www.figma.com/proto/OybBWroxTq8trEZTc0lEaM/TI?node-id=103-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=103%3A2)
 
-![User Flux](images/userflow.jpg)
+![User Flux](images/userFlux.jpg)
 
 ## Wireframes
 
