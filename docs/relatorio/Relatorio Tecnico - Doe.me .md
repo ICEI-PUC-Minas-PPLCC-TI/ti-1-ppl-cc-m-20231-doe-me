@@ -100,16 +100,26 @@ O público alvo do Doe.me consiste em dois grupos distintos: pessoas que precisa
 ## Personas, Empatia e Proposta de Valor
 
 As personas do nosso projeto estão inseridos em diferentes contextos sociais e dessa forma também possuem pensamentos distintos entre si.
-Aqui estão algumas informações a respeito de cada uma das personas presentes em nosso projeto.
+Aqui estão algumas informações a respeito de cada uma das personas presentes em nosso projeto.<br><br><br><br>
 
-![Persona 1 : Vanessa](images/personaVanessa.png)
+**Persona 1: Vanessa Coutinho** <br><br><br><br>
 
+![Persona 1 : Vanessa](images/personaVanessa.png)<br><br><br><br>
 
-![Persona 2: Neide](images/personaNeide.png)
+![Proposta de valor Vanessa](images/propVanessa.png)<br><br><br><br><br><br><br>
 
+**Persona 2:Neide Mara** <br><br> <br><br>
 
-![Persona 3: Inácio](images/personaInacio.png)
+![Persona 2: Neide](images/personaNeide.png)<br><br><br><br>
 
+![Proposta de valor Neide](images/propNeide.png)<br><br><br><br><br><br>
+
+**Persona 3: Inácio Cintra** <br><br><br><br>
+![Persona 3: Inácio](images/personaInacio.png)<br><br><br><br>
+
+![Proposta de valor Inacio](images/propInacio.png)<br><br><br><br><br><br>
+
+-----------------------------------------------------------------------------------------
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
 > mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
@@ -186,43 +196,50 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-Para a montagem da interface do sistema, estabeleceu-se uma solução com foco em agilidade, acessibilidade e usabilidade, buscando oferecer uma identidade visual padronizada em todas as telas projetadas. Desta forma, o projeto atende aos devidos requisitos trabalhando com a devida responsividade, funcionando em desktops e dispositivos móveis, e com um visual intuitivo, com o objetivo de proporcionar uma experiência satisfatória e eficiente para todos os usuários do sistema.
+......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+
+> Apresente as principais interfaces da solução. Discuta como 
+> foram elaboradas de forma a atender os requisitos funcionais, não
+> funcionais e histórias de usuário abordados nas [Especificações do
+> Projeto](#especificações-do-projeto).
 
 ## User Flow
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Figma do projeto.](https://www.figma.com/proto/OybBWroxTq8trEZTc0lEaM/TI?node-id=103-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=103%3A2)
+......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
-![User Flux](images/userflow.jpg)
+> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
+> mapear todo fluxo de telas do site ou app. Essa técnica funciona
+> para alinhar os caminhos e as possíveis ações que o usuário pode
+> fazer junto com os membros de sua equipe.
+>
+> **Links Úteis**:
+> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
+> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
+> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+>
+> **Exemplo**:
+> 
+> ![Exemplo de UserFlow](images/userflow.jpg)
+
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum, na qual existem 3 grandes blocos, descritos a seguir. São eles:
-* **Cabeçalho** - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
-* **Conteúdo** - apresenta o conteúdo da tela em questão;
-* **Rodapé** - apresenta os elementos informativos e de navegação secundária, como informações de contato e redes sociais, links importantes e dúvidas frequentes.
+......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
-### Home-Page
-![Tela Home-Page](images/Home.png)
-
-### Doações
-![Tela Doações](images/Doacoes.png)
-
-### Instituições
-![Tela Instituições](images/Instituicoes1.png)
-
-### Login e Criar Conta
-![Tela Login](images/Login.png)
-
-![Tela Criar Conta](images/Register1.png)
-
-### Conversas
-![Tela Conversas](images/Conversas.png)
-
-### Perfil do Usuário
-![Tela Perfil do Usuário](images/Perfil.png)
-
-### Perfis de Outros Usuários
-![Tela Perfis de Outros Usuários](images/OutroUsuario.png)
+> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
+> estrutura de um site web e seu relacionamentos entre suas
+> páginas. Um wireframe web é uma ilustração semelhante ao
+> layout de elementos fundamentais na interface.
+> 
+> **Links Úteis**:
+> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
+> - [Figma](https://www.figma.com/)
+> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
+> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+> 
+> **Exemplo**:
+> 
+> ![Exemplo de Wireframe](images/wireframe-example.png)
 
 
 # Metodologia
