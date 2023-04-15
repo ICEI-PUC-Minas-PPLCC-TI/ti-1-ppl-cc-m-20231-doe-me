@@ -106,18 +106,18 @@ Aqui estão algumas informações a respeito de cada uma das personas presentes 
 
 ![Persona 1 : Vanessa](images/personaVanessa.png)<br><br><br><br>
 
-![Proposta de valor Vanessa](images/propVanessa.png)<br><br><br><br><br><br><br>
+![Proposta de valor Vanessa](images/propVanessa.png)<br><br><br><br><br>
 
 **Persona 2:Neide Mara** <br><br> <br><br>
 
 ![Persona 2: Neide](images/personaNeide.png)<br><br><br><br>
 
-![Proposta de valor Neide](images/propNeide.png)<br><br><br><br><br><br>
+![Proposta de valor Neide](images/propNeide.png)<br><br><br><br>
 
 **Persona 3: Inácio Cintra** <br><br><br><br>
 ![Persona 3: Inácio](images/personaInacio.png)<br><br><br><br>
 
-![Proposta de valor Inacio](images/propInacio.png)<br><br><br><br><br><br>
+![Proposta de valor Inacio](images/propInacio.png)<br><br><br><br>
 
 -----------------------------------------------------------------------------------------
 
