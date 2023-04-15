@@ -102,13 +102,13 @@ O público alvo do Doe.me consiste em dois grupos distintos: pessoas que precisa
 As personas do nosso projeto estão inseridos em diferentes contextos sociais e dessa forma também possuem pensamentos distintos entre si.
 Aqui estão algumas informações a respeito de cada uma das personas presentes em nosso projeto.
 
-![Persona 1 : Vanessa](images/personaVanessa)
+![Persona 1 : Vanessa](images/personaVanessa.png)
 
 
-![Persona 2: Neide](images/personaNeide)
+![Persona 2: Neide](images/personaNeide.png)
 
 
-![Persona 3: Inácio](images/personaInacio)
+![Persona 3: Inácio](images/personaInacio.png)
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
