@@ -99,44 +99,24 @@ O público alvo do Doe.me consiste em dois grupos distintos: pessoas que precisa
 
 ## Personas, Empatia e Proposta de Valor
 
-As personas do nosso projeto estão inseridos em diferentes contextos sociais e dessa forma também possuem pensamentos distintos entre si.
-Aqui estão algumas informações a respeito de cada uma das personas presentes em nosso projeto.
+As personas do nosso projeto estão inseridas em diferentes contextos sociais e são exemplos dos dois âmbitos do público alvo, previamente analisado nesse documento. Em seguida, estão os estudos feitos sobre cada uma delas.
 
-![Persona 1 : Vanessa](images/personaVanessa.png)
+### **Persona 1: Vanessa Coutinho**
 
+![Persona 1 : Vanessa](images/personaVanessa.png)<br>
 
-![Persona 2: Neide](images/personaNeide.png)
+![Proposta de valor Vanessa](images/propVanessa.png)
 
+### **Persona 2:Neide Mara**
 
-![Persona 3: Inácio](images/personaInacio.png)
+![Persona 2: Neide](images/personaNeide.png)<br>
 
+![Proposta de valor Neide](images/propNeide.png)
 
-> Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
-> mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
-> e de forma personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
->
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
+### **Persona 3: Inácio Cintra**
+![Persona 3: Inácio](images/personaInacio.png)<br>
 
+![Proposta de valor Inacio](images/propInacio.png)
 
 ## Histórias de Usuários
 
@@ -190,17 +170,12 @@ Para a montagem da interface do sistema, estabeleceu-se uma solução com foco e
 
 ## User Flow
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Figma do projeto.](https://www.figma.com/proto/OybBWroxTq8trEZTc0lEaM/TI?node-id=103-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=103%3A2)
-
-![User Flux](images/userFlux.jpg)
-
-## Wireframes
-
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum, na qual existem 3 grandes blocos, descritos a seguir. São eles:
 * **Cabeçalho** - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
 * **Conteúdo** - apresenta o conteúdo da tela em questão;
 * **Rodapé** - apresenta os elementos informativos e de navegação secundária, como informações de contato e redes sociais, links importantes e dúvidas frequentes.
 
+## Wireframes
 ### Home-Page
 ![Tela Home-Page](images/Home.png)
 
@@ -223,7 +198,6 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 ### Perfis de Outros Usuários
 ![Tela Perfis de Outros Usuários](images/OutroUsuario.png)
-
 
 # Metodologia
 
