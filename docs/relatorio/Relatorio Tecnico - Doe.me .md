@@ -191,7 +191,10 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 ![Tela Perfil do Usuário](images/Perfil.png)
 
 ### Perfis de Outros Usuários
-![Tela Perfis de Outros Usuários](images/OutroUsuario.png)
+![Tela Perfis de Outros Usuários](images/OutroUsuario2.png)
+
+### Avaliação de Usuários
+![Tela Perfis de Avaliação](images/Avaliar.png)
 
 # Metodologia
 
