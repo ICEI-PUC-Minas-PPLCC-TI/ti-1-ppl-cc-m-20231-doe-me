@@ -180,6 +180,10 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 ![Tela Criar Conta](images/Register1.png)
 
+![Tela Criar Conta User](images/Register2.png)
+
+![Tela Criar Conta Instituição](images/Register3.png)
+
 ### Conversas
 ![Tela Conversas](images/Conversas.png)
 
