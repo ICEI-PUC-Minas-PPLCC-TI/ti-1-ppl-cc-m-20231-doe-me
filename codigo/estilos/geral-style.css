@@ -32,7 +32,7 @@ link{
 
 header {
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -42,12 +42,29 @@ header {
     background-image: linear-gradient(to right,#feaa39,#F27405 ,#f205319c);
 }
 
+header .logo-container{
+    display: flex;
+    padding: 30px;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
 
-header .logo {
-    font-size: 1.25rem;
+header #logo {
+    max-height: 130px;
+    justify-content: center;
+    align-self: center;
+    margin-right: 0px;
+}
+
+header #logo-texto{
+    font-size: 50px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-style: oblique;
+    color: #f20531;
 }
 
 header nav ul{
