@@ -8,10 +8,9 @@
     text-decoration: none;
     box-sizing: border-box;
     color: #222;
-    text-align: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: #222;
 }
@@ -23,12 +22,12 @@ body {
     flex-direction: column;
 }
 
-link{
+link {
     text-decoration: underline;
 }
+
 button {
     border: 2px solid #feaa39;
-    padding: 1em 2.2em;
     border-radius: 3em;
     background-color: transparent;
     color: #feaa39;
@@ -37,7 +36,7 @@ button {
 }
 
 /* ----------------------------------------NAVBAR--------------------------------------------- */
-header{
+header {
     width: 100%;
     height: 100px;
     display: flex;
@@ -172,6 +171,7 @@ footer {
     font-size: 1.2rem;
     margin-top: auto; /*mantém o footer no chão*/
     background-image: linear-gradient(to right,#feaa39,#F27405 ,#f205319c);
+    text-align: center;
 }
 
 footer .footer-content {
@@ -259,14 +259,14 @@ footer .footer-copyright{
 
 
 /* Responsividade do FOOTER */
-@media  screen and (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
     footer .footer-content{
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
     }
 }
 
-@media  screen and (max-width: 500px){
+@media screen and (max-width: 500px){
     footer .footer-content{
         grid-template-columns: repeat(1,1fr);
         gap: 2rem;
