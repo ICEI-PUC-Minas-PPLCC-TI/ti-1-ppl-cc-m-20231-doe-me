@@ -1,0 +1,144 @@
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+#searchInput {
+    margin: 1em 0;
+}
+
+#search-container input {
+    margin: 20px;
+    background-color: #f6dfc1;;
+    width: 40%;
+    border: 2px solid #A6035D;
+    border-radius: 3em;
+    padding: 1em 0.3em;
+}
+
+
+#search-container input::placeholder {
+    color: #A6035D;
+    text-align: left;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#search-container label {
+    color: #A6035D;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 600;
+    text-align: left;
+}
+
+#search-container input:focus {
+    border-bottom-color: #feaa39;
+}
+
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #feaa39;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.button-value {
+    border: 2px solid #D90452;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #D90452;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#buttons {
+    padding: 2px;
+}
+
+#btns-post button{
+    padding-bottom: 20px;
+}
+
+.active {
+    background-color: #D90452;
+    color: #f6dfc1;
+}
+
+/* -----------POSTS CARDS----------- */
+
+.card {
+    background-color: #ffffff;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+}
+
+.container {
+    padding-top: 1em;
+}
+
+.container h2 {
+    font-weight: 500;
+}
+
+#tag, #tag-inst{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    color: #D90452;
+}
+
+#titulo, #titulo-inst{
+    text-align: left;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+#descricao, #descricao-inst{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/*-----------RESPONSIVIDADE----------- */
+@media screen and (max-width: 720px) {
+    div.logo ul li {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    }
+
+    .card {
+        max-width: 10em;
+        margin-top: 1em;
+    }
+
+    #products {
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
+}
