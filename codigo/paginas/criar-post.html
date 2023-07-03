@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../estilos/geral-style.css">
+    <link rel="stylesheet" href="../estilos/criar-post-style.css">
+    <title>Doe.me</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+
+        <nav class="">
+            <a href="./index.html">
+                <div class="logo-container">
+                    <img src="../imagens/DOE.ME-logo-transparente.png" alt="Logo" id="logo">
+                    <h3 id="logo-texto">DOE.ME</h3>
+                </div>
+            </a>
+
+
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../paginas/explorar.html">Explorar</a></li>
+                <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
+                <li><a href="../paginas/login.html" class="login-container">Login</a></li>
+                <li><a href="../paginas/cadastro-usuario.html" class="login-container">Cadastre-se</a></li>
+            </ul>
+            
+            <div class="perfil">
+                <i class="fa-solid fa-user">
+                 <a href="../paginas/perfil-user.html">Perfil</a>
+                </i>
+            </div>
+        </nav>
+
+        <!-- Icone-Menu -->
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Menu em dropdown -->
+        <div class="dropdown-menu">
+            <ul >
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../paginas/explorar.html">Explorar</a></li>
+                <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
+                <li><a href="../paginas/login.html" class="login-container">Login</a></li>
+                <li><a href="../paginas/botoes.html" class="login-container">Cadastre-se</a></li>
+                <li><i class="fa-solid fa-user"></i><a href="#">Perfil</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="perfil_container">
+        <div class="postar">
+            <h1>Faça sua doação!</h1><br>
+
+            <form id="postagemForm">
+                <div class="buttons">
+                    <label for="titulo">Título da doação:</label><br>
+                    <input type="text" id="titulo" name="titulo" required><br><br>
+                    
+                    <label for="username">Username:<br>
+                    <input type="text" id="username" name="username"><br>
+
+                    <label for="conteudo">Descrição:</label><br>
+                    <textarea id="conteudo" name="conteudo" rows="5" cols="40" required></textarea><br>
+
+                    <label for="arquivo">Foto:</label><br>
+                    <input type="file" id="arquivo" name="arquivo"><br>
+                    <div class="fotoo">
+                        <img id="imagemPreview" src="#" alt="Pré-visualização da imagem"
+                            style="display: none; max-width: 200px;"><br>
+                    </div>
+                    <label for="localizacao">Localização:</label><br>
+                    <input type="text" id="localizacao" name="localizacao"><br>
+
+                    <label for="categoria">Categoria:<br>
+                    <input type="text" id="categoria" name="categoria"><br>
+                    
+                    <label for="telefone">Telefone:<br>
+                    <input type="text" id="telefone" name="telefone"><br>
+
+                    <input class="Publicar" type="submit" value="Doar">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <h3> Acesse nossas redes</h3>
+
+                <div class="footer-social">
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list" id="equipe">
+                <li>
+                    <h3>A Equipe</h3>
+                </li>
+                <li>Catarina França de Moura Castro</li>
+                <li>Thiago Rezende Aguiar</li>
+                <li>Oliver Haas Bottcher</li>
+                <li>Fernando Gonçalves Oliveira Costa</li>
+                <li>Filipe Lorenzato Cardoso Rodrigues</li>
+                <li>Luan Carlos Coelho Garrido</li>
+                <li>Luigi Louback de Oliveira</li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Links</h3>
+                </li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Politica de Privacidade</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Termos e Condições</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-copyright">
+            © 2023 Doe.me.com
+        </div>
+    </footer>
+    <script src="../scripts/criar-post.js"></script>
+</body>
+
+</html>
