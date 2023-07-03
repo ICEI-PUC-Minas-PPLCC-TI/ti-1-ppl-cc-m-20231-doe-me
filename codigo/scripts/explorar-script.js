@@ -14,10 +14,12 @@ fetch('https://data-doeme-jsonserver.catfmcastro.repl.co/postagens')
         const title = postElement.querySelector('.cardTitle');
         const desc = postElement.querySelector('.cardDescription');
         const tags = postElement.querySelector('.cardTags');
+        const link = postElement.querySelector('.cardLink');
 
         title.textContent = post.titulo;
         desc.textContent = post.descricao;
         tags.textContent = post.tag;
+        link.setAttribute('href', `./detalhes-post.html?id=${post.id}`)
 
         postElement.querySelector('.card').classList.add("post-value")
         postContainer.appendChild(postElement);
@@ -213,5 +215,5 @@ document.getElementById("searchInput").addEventListener("keydown", function(even
 
 // Mostra todo o conteúdo assim que a página é carregada
 window.onload = () => {
-    cards[index].classList.remove("hide");
+    // cards[index].classList.remove("hide");
 };

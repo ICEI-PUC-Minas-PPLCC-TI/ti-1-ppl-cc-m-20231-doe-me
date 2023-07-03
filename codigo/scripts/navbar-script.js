@@ -14,6 +14,6 @@ if(sessionStorage.getItem('user')){
   document.getElementsByClassName('login-container').classList.add("hide");
   document.getElementsByClassName('perfil-hide').classList.remove("hide");
 }else{
-  document.getElementsByClassName('perfil-hide').classList.add("hide");
-  document.getElementsByClassName('login-container').classList.remove("hide");
+  document.getElementsByClassName('perfil-hide')?.classList?.add("hide");
+  document.getElementsByClassName('login-container')?.classList?.remove("hide");
 }
