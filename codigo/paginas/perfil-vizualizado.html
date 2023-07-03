@@ -14,19 +14,18 @@
 </head>
 
 <body>
-    <div class="perfil_container">
+    
         <!-- Navbar -->
         <header>
-
+        
             <nav class="">
-                <a href="./index.html">
+                <a href="../index.html">
                     <div class="logo-container">
                         <img src="../imagens/DOE.ME-logo-transparente.png" alt="Logo" id="logo">
                         <h3 id="logo-texto">DOE.ME</h3>
                     </div>
                 </a>
-
-
+    
                 <ul>
                     <li><a href="../index.html">Início</a></li>
                     <li><a href="../paginas/explorar.html">Explorar</a></li>
@@ -41,61 +40,34 @@
                     </i>
                 </div>
             </nav>
-
+    
             <!-- Icone-Menu -->
             <div class="menu-icon">
                 <i class="fa-solid fa-bars"></i>
             </div>
-
+    
             <!-- Menu em dropdown -->
             <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Explorar</a></li>
-                    <li><a href="#">Instituições</a></li>
-                    <li><a href="#" class="login-container">Login</a></li>
-                    <li><a href="#" class="login-container">Cadastre-se</a></li>
+                <ul >
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="../paginas/explorar.html">Explorar</a></li>
+                    <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
+                    <li><a href="../paginas/login.html" class="login-container">Login</a></li>
+                    <li><a href="../paginas/botoes.html" class="login-container">Cadastre-se</a></li>
                     <li><i class="fa-solid fa-user"></i><a href="#">Perfil</a></li>
                 </ul>
             </div>
         </header>
 
-        <div class="perfil_img">
-            <div class="image-container" id="imagem-container"></div>
-        </div>
-
-        <div class="perfil_info" id="formulario">
-            <div class="labels">
-                <label for="name">Nome:</label><br>
-                <label for="email">Email:</label><br>
-                <label for="tel">Telefone:</label><br>
-            </div>
-            <div class="inputs">
-                <input type="text" id="name" name="name" readonly><br>
-                <input type="email" id="email" name="email" readonly><br>
-                <input type="tel" id="tel" name="tel" readonly><br>
-            </div>
-        </div>
-
-        <div class="estrela">
-            <div id="nota"></div>
-        </div>
-
-        <div class="notaa">
-            <div id="comentar"></div>
-        </div>
-
-        <h1 class="doacaoo"> DESCRIÇÃO</h1>
-        <div class="tudo">
-            <div id="lista-imagem"></div>
-        </div>
-
+        
+        <div id="dadosperfil"></div>
+      
         <!-- Footer -->
         <footer>
             <div class="footer-content">
                 <div class="footer-contacts">
                     <h3> Acesse nossas redes</h3>
-
+    
                     <div class="footer-social">
                         <a href="#" class="footer-link" id="facebook">
                             <i class="fab fa-facebook-f"></i>
@@ -108,7 +80,7 @@
                         </a>
                     </div>
                 </div>
-
+    
                 <ul class="footer-list" id="equipe">
                     <li>
                         <h3>A Equipe</h3>
@@ -121,7 +93,7 @@
                     <li>Luan Carlos Coelho Garrido</li>
                     <li>Luigi Louback de Oliveira</li>
                 </ul>
-
+    
                 <ul class="footer-list">
                     <li>
                         <h3>Links</h3>
@@ -133,7 +105,7 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </div>
-
+    
             <div class="footer-copyright">
                 © 2023 Doe.me.com
             </div>
@@ -145,7 +117,7 @@
             crossorigin="anonymous"></script>
         <script src="../scripts/navbar-script.js"></script>
         <script src="../scripts/perfil.js"></script>
-    </div>
+    
 </body>
 
 </html>

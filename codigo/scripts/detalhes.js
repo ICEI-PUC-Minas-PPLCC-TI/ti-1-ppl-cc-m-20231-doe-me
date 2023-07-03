@@ -25,6 +25,8 @@ function getDetails(id) {
                     <h6>${json.username?.toUpperCase()}</h6>
                     <p>${json.descricao}</p>
                     <p>${json.localizacao}</p>
+                    <p>${json.contato.telefone}</p>
+                    <p>${json.contato.email}</p>
                     <div class="d-flex justify-content-center">
                         <button class="btn btn-outline-success"><i class="bi bi-bag-plus"></i></button>
                     </div>
