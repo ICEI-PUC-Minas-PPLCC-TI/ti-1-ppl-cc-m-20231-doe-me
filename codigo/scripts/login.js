@@ -12,7 +12,7 @@ function Login(event) {
     let tipo = document.querySelector('input[name="tipos"]:checked').value;
     if (tipo === 'instituição') {
         url = urlInst;
-        novaUrl = '../paginas/perfil-instituicao.html'
+        novaUrl = '../paginas/perfil-user.html'
     } else if (tipo === 'usuário') {
         url = urlUser;
         novaUrl = '../paginas/perfil-user.html'
