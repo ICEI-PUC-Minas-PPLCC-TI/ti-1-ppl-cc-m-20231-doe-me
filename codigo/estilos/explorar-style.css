@@ -34,25 +34,30 @@
 }
 
 #search-container input:focus {
-    border-bottom-color: #feaa39;
+    border-color: #feaa39;
 }
 
 #search-container button {
-    padding: 1em 2em;
-    margin-left: 1em;
+    padding: 10px 20px;
+    margin-left: 0;
     background-color: #feaa39;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     font-style: oblique;
     border-radius: 5px;
     margin-top: 0.5em;
 }
 
-.button-value {
+.search-top-container{
+    margin-bottom: 15px;
+}
+
+.btn-tag {
     border: 2px solid #D90452;
-    padding: 1em 2.2em;
-    border-radius: 3em;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
     background-color: transparent;
     color: #D90452;
     cursor: pointer;
@@ -63,24 +68,18 @@
     padding: 2px;
 }
 
-#btns-post button{
-    padding-bottom: 20px;
-}
-
-.active {
-    background-color: #D90452;
-    color: #f6dfc1;
-}
-
 /* -----------POSTS CARDS----------- */
 
 .card {
     background-color: #ffffff;
-    max-width: 18em;
+    border-color: white;
+    margin: 15px;
     margin-top: 1em;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 1em 2em 2.5em rgba(68, 1, 1, 0.08);
+    max-width: 20em;
+    min-width: 15em;
 }
 
 .image-container {
@@ -125,7 +124,7 @@ img {
     div.logo ul li {
         display: none;
     }
-
+    
     img {
         max-width: 100%;
         object-fit: contain;
@@ -142,3 +141,7 @@ img {
         grid-column-gap: 1em;
     }
 }
+    .active {
+        background-color: #D90452;
+        color: #f6dfc1;
+    }

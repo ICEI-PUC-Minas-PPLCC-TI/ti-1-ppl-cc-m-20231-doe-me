@@ -43,8 +43,6 @@ fetch("https://data-doeme-jsonserver.catfmcastro.repl.co/instituicao")
     });
 })
 
-
-
 // Funcionalidade do sistema de Tags POSTAGENS
 function filterProductPost(value) {
     //Seleção de botões post-tags

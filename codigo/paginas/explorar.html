@@ -52,26 +52,37 @@
                 <li><a href="../paginas/explorar.html">Explorar</a></li>
                 <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
                 <li><a href="../paginas/login.html" class="login-container">Login</a></li>
-                <li><a href="../paginas/cadastro.html" class="login-container">Cadastre-se</a></li>
+                <li><a href="../paginas/botoes.html" class="login-container">Cadastre-se</a></li>
                 <li><i class="fa-solid fa-user"></i><a href="#">Perfil</a></li>
             </ul>
         </div>
     </header>
 
     <!-- Conteúdo -->
-    <div class="wrapper">
-        <!-- SearchBox -->
-        <div class="searchBox" id="search-container">
-            <label for="searchBox">Busque por uma instituição:</label>
-            <input type="text" placeholder="Digite aqui..." id="searchInput"/>
-            <button id="btnPesquisar">Pesquisar</button>
-        </div>
+    <div class="wrapper container">
+        
+        <div class="row search-top-container">
+            <!-- SearchBox -->
+            <div class="searchBox col-lg-8" id="search-container">
+                <label for="searchBox">Busque por uma instituição:</label>
+                <input type="text" placeholder="Digite aqui..." id="searchInput"/>
+                <button id="btnPesquisar">Pesquisar</button>
+            </div>
 
+            <div class="col-lg-2" id="btn-criar-post">
+                <h3>Tem algo para doar?</h3>
+                <a href="../paginas/criar-post.html">
+                    <button type="button">Crie uma publicação!</button>
+                </a>
+            </div>
+
+        </div>
+        
         <!-- Botões de Tag -->
         <div id="buttons">
             <!-- Tags Posts -->
             <div id="btns-posts">
-                <button class="button-value-post  btn-type active" onclick="filterProductPost('allPost')">Todas as Postagens</button>
+                <button class="button-value-post  btn-tag active" onclick="filterProductPost('allPost')">Todas as Postagens</button>
                 <button class="button-value-post  btn-tag" onclick="filterProductPost('roupas')">Roupas</button>
                 <button class="button-value-post  btn-tag" onclick="filterProductPost('livros')">Livros</button>
                 <button class="button-value-post  btn-tag" onclick="filterProductPost('brinquedos')">Brinquedos</button>
@@ -83,13 +94,14 @@
 
             <!-- Tags Instituições -->
             <div id="btns-inst">
-                <button class="button-value-inst btn-type active" onclick="filterProductInst('allInst')">Todas as Instituições</button>
+                <button class="button-value-inst btn-tag active" onclick="filterProductInst('allInst')">Todas as Instituições</button>
                 <button class="button-value-inst btn-tag" onclick="filterProductInst('ONG')">ONG/Instituição</button>
                 <button class="button-value-inst btn-tag" onclick="filterProductInst('Igreja')">Igreja</button>
                 <button class="button-value-inst btn-tag" onclick="filterProductInst('Reciclagem')">Coleta de Recicláveis</button>
             </div>
 
-        </div>
+        </div> 
+
     </div>
 
         <!-- Containers -->

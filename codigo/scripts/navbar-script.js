@@ -9,3 +9,11 @@ menuBtn.onclick = function () {
 
   menuBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
 }
+
+if(sessionStorage.getItem('user')){
+  document.getElementsByClassName('login-container').classList.add("hide");
+  document.getElementsByClassName('perfil-hide').classList.remove("hide");
+}else{
+  document.getElementsByClassName('perfil-hide').classList.add("hide");
+  document.getElementsByClassName('login-container').classList.remove("hide");
+}
