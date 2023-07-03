@@ -40,20 +40,124 @@ function LerDados() {
 function infosPerfil() {
   // Ler os dados do sessionStorage
   let user = LerDados();
+    // username
+    if(user.username){
+      document.getElementById('username').value = user.username;
+    }
+    else{
+      document.getElementById('username-label').classList.add('hide');
+      document.getElementById('username').classList.add('hide');
+    }
 
-  if (user) {
-    document.getElementById('username').value = user.username;
-    document.getElementById('name').value = user.nome;
-    document.getElementById('lastname').value = user.sobrenome;
-    document.getElementById('email').value = user.email;
-    document.getElementById('tel').value = user.telefone;
-    document.getElementById('cpf').value = user.cpf;
-    document.getElementById('cep').value = user.cep;
-    document.getElementById('descricao').value = user.descricao;
-  }
+    // nome
+    if(user.nome){
+      document.getElementById('name').value = user.nome;
+    }
+    else{
+      document.getElementById('name-label').classList.add('hide');
+      document.getElementById('name').classList.add('hide');
+    }
+
+    // sobrenome
+    if(user.sobrenome){
+      document.getElementById('lastname').value = user.sobrenome;
+    }
+    else{
+      document.getElementById('sobrenome-label').classList.add('hide');
+      document.getElementById('lastname').classList.add('hide');
+    }
+
+    // email
+    if(user.email){
+      document.getElementById('email').value = user.email;
+    }
+    else{
+      document.getElementById('email-label').classList.add('hide');
+      document.getElementById('email').classList.add('hide');
+    }
+
+    // telefone
+    if(user.telefone){
+      document.getElementById('tel').value = user.telefone;
+    }
+    else{
+      document.getElementById('tel-label').classList.add('hide');
+      document.getElementById('tel').classList.add('hide');
+    }
+
+    // cnpj
+    if(user.cnpj){
+      document.getElementById('cnpj').value = user.cnpj;
+    }
+    else{
+      document.getElementById('cnpj-label').classList.add('hide');
+      document.getElementById('cnpj').classList.add('hide');
+    }
+
+    // cpf
+    if(user.cpf){
+      document.getElementById('cpf').value = user.cpf;
+    }
+    else{
+      document.getElementById('cpf-label').classList.add('hide');
+      document.getElementById('cpf').classList.add('hide');
+    }
+
+    // cep
+    if(user.cep){
+      document.getElementById('cep').value = user.cep;
+    }
+    else{
+      document.getElementById('cep-label').classList.add('hide');
+      document.getElementById('cep').classList.add('hide');
+    }
+
+    // endereço
+    if(user.endereco){
+      document.getElementById('endereco').value = user.endereco;
+    }
+    else{
+      document.getElementById('endereco-label').classList.add('hide');
+      document.getElementById('endereco').classList.add('hide');
+    }
+
+    // numero
+    if(user.numero){
+      document.getElementById('numero').value = user.numero;
+    }
+    else{
+      document.getElementById('numero-label').classList.add('hide');
+      document.getElementById('numero').classList.add('hide');
+    }
+
+    // cidade
+    if(user.cidade){
+      document.getElementById('cidade').value = user.cidade;
+    }
+    else{
+      document.getElementById('cidade-label').classList.add('hide');
+      document.getElementById('cidade').classList.add('hide');
+    }
+
+    // estado
+    if(user.estado){
+      document.getElementById('estado').value = user.estado;
+    }
+    else{
+      document.getElementById('estado-label').classList.add('hide');
+      document.getElementById('estado').classList.add('hide');
+    }
+
+    // descrição
+    if(user.descricao){
+      document.getElementById('descricao').value = user.descricao;
+    }
+    else{
+      document.getElementById('descricao-label').classList.add('hide');
+      document.getElementById('descricao').classList.add('hide');
+    }
+
 }
-
-
 
 function habilitarEdicao() {
   // Tirar o atributo readonly dos inputs

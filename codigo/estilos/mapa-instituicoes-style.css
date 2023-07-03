@@ -3,9 +3,10 @@ aside {
     margin: 20px 200px;
 }
 
-aside h1 {
-    margin-bottom: 10px;
-    padding-left: 15px;
+aside h3 {
+    margin: 18px;
+    font-style: oblique;
+    color: #D90452;
 }
 
 .caixapesquisa {
@@ -18,7 +19,7 @@ aside h1 {
     height: 40px;
     max-width: 380px;
     margin: auto;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 10px rgba(57, 0, 0, 0.25);
     border-radius: 25px;
 }
 

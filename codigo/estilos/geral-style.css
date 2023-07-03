@@ -40,35 +40,31 @@ header {
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: space-between;
     padding: 50px;
-    align-items: center;
     padding: 0 40px;
     background: #feaa39;
-    background-image: linear-gradient(to right,#feaa39,#F27405 ,#f205319c);
+    background-image: linear-gradient(to right,#feaa39, #F27405,#f205319c);
 }
-
-
 nav {
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 50px;
     padding: 0 40px;
+    padding-top: 20px;
     background: #feaa39;
     background-image: linear-gradient(to right,#feaa39,#F27405 ,#f205319c);
 }
 
+/* logo */
 header .logo-container{
     display: flex;
     padding: 30px;
     padding-top: 40px;
     align-items: center;
-    justify-content: center;
+    margin-right: auto;
 }
-
 header #logo {
     max-height: 130px;
     justify-content: center;
@@ -76,7 +72,6 @@ header #logo {
     margin-right: 0px;
     padding: 0px;
 }
-
 header #logo-texto{
     font-size: 40px;
     font-weight: 700;
@@ -87,25 +82,32 @@ header #logo-texto{
     color: #f20531;
 }
 
+/* botões nav */
 header nav ul{
     display: flex;
     gap: 30px;
 }
-
-header nav ul li a {
-    font-size: 1.2rem;
+.btn-nav{
+    font-size: 22px;
     letter-spacing: 0.05rem;
 }
+/*!! btn nav hover AFDDD */
+.logo-container{
+    margin-left: auto;
+}
 
+/* botão perfil */
 header .perfil {
     align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
 }
-
 header .perfil a{
-    font-size: 1.2rem;
+    font-size: 22px;
     letter-spacing: 0.05rem;
 }
 
+/* menu em dropdown */
 header .menu-icon {
     color: #010101;
     font-size: 1.5rem;
@@ -113,7 +115,6 @@ header .menu-icon {
     display: none;
     justify-self: right;
 }
-
 header .dropdown-menu{
     display: none;
     z-index: 1000;
