@@ -10,55 +10,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/geral-style.css">
     <link rel="stylesheet" href="../estilos/perfil-user-style.css">
+    <link rel="stylesheet" href="../estilos/geral-style.css">
+    
 </head>
 
 <body>
 
-    <div class="perfil_container">
-        <header>
-
-            <nav class="">
-                <a href="../index.html">
-                    <div class="logo-container">
-                        <img src="../imagens/DOE.ME-logo-transparente.png" alt="Logo" id="logo">
-                        <h3 id="logo-texto">DOE.ME</h3>
-                    </div>
-                </a>
-
-                <ul>
-                    <li><a href="../index.html">Início</a></li>
-                    <li><a href="../paginas/explorar.html">Explorar</a></li>
-                    <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
-                    <li><a href="../paginas/login.html" class="login-container">Login</a></li>
-                    <li><a href="../paginas/botoes.html" class="login-container">Cadastre-se</a></li>
-                </ul>
-                
-                <div class="perfil">
-                    <i class="fa-solid fa-user">
-                     <a href="../paginas/perfil-user.html">Perfil</a>
-                    </i>
-                </div>
-            </nav>
-
-            <!-- Icone-Menu -->
-            <div class="menu-icon">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
-            <!-- Menu em dropdown -->
-            <div class="dropdown-menu">
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Explorar</a></li>
-                    <li><a href="#">Instituições</a></li>
-                    <li><a href="#" class="login-container">Login</a></li>
-                    <li><a href="#" class="login-container">Cadastre-se</a></li>
-                    <li><i class="fa-solid fa-user"></i><a href="#">Perfil</a></li>
-                </ul>
-            </div>
-        </header>
+   
+       <!-- Navbar -->
+    <header>
         
-        <div class="perfil_img">
+        <nav class="">
+            <a href="../index.html">
+                <div class="logo-container">
+                    <img src="../imagens/DOE.ME-logo-transparente.png" alt="Logo" id="logo">
+                    <h3 id="logo-texto">DOE.ME</h3>
+                </div>
+            </a>
+
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../paginas/explorar.html">Explorar</a></li>
+                <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
+                <li><a href="../paginas/login.html" class="login-container">Login</a></li>
+                <li><a href="../paginas/botoes.html" class="login-container">Cadastre-se</a></li>
+            </ul>
+            
+            <div class="perfil">
+                <i class="fa-solid fa-user">
+                 <a href="../paginas/perfil-user.html">Perfil</a>
+                </i>
+            </div>
+        </nav>
+
+        <!-- Icone-Menu -->
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- Menu em dropdown -->
+        <div class="dropdown-menu">
+            <ul >
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../paginas/explorar.html">Explorar</a></li>
+                <li><a href="../paginas/mapa-instituicoes.html">Instituições</a></li>
+                <li><a href="../paginas/login.html" class="login-container">Login</a></li>
+                <li><a href="../paginas/botoes.html" class="login-container">Cadastre-se</a></li>
+                <li><i class="fa-solid fa-user"></i><a href="#">Perfil</a></li>
+            </ul>
+        </div>
+    </header>
+        <div></div>
+       <div class="perfil_img">
             <div class="image-container" id="imagem-container"></div>
             <input type="file" id="imagem-input" accept="image/*">
         </div>
@@ -66,7 +69,7 @@
         <div class="perfil_info" id="formulario">
 
             <div class="labels">
-                <label for="username">Username:</label><br>
+               <br> <label for="username">Username:</label><br>
                 <label for="name">Nome:</label><br>
                 <label for="lastname">Sobrenome:</label><br>
                 <label for="email">Email:</label><br>
@@ -76,7 +79,7 @@
                 <label for="descricao">Descrição:</label><br>
             </div>
             <div class="inputs">
-                <input type="text" id="username" name="username" readonly><br>
+                <br><input type="text" id="username" name="username" readonly><br>
                 <input type="text" id="name" name="name" readonly><br>
                 <input type="text" id="lastname" name="lastname" readonly><br>
                 <input type="email" id="email" name="email" readonly><br>
@@ -87,17 +90,17 @@
             </div>
             <div class="buttons">
                 <button id="edit_btn">Editar</button>
-                <button type="button" id="save_btn" style="display: none;">Salvar</button>
+                <button type="button" id="save_btn" style="display: none;">Salvar</button><br><br><br>
             </div>
         </div>
         <div class="estrela">
             <div id="nota"></div>
         </div>
-        <div class="notaa">
+       <!--- <div class="notaa">
             <div id="comentar"></div>
-        </div>
+        </div> -->
 
-        <h1 class="doacaoo"> DESCRIÇÃO</h1>
+        <!--<h1 class="doacaoo"> DOAÇÕES</h1>-->
         <div class="tudo">
             <div id="lista-imagem"></div>
         </div>
@@ -148,7 +151,7 @@
                 © 2023 Doe.me.com
             </div>
         </footer>
-    </div>
+        <script src="https://kit.fontawesome.com/92a5c2b8bf.js" crossorigin="anonymous"></script>
     <script src="../scripts/perfil-user.js"></script>
 </body>
 
