@@ -20,3 +20,14 @@ article{
     font-weight: 700;
 
 }
+
+.texto{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+}
