@@ -35,10 +35,11 @@ fetch("https://data-doeme-jsonserver.catfmcastro.repl.co/instituicao")
             const title = postElement.querySelector('.cardTitle');
             const desc = postElement.querySelector('.cardDescription');
             const tags = postElement.querySelector('.cardTags');
-
+            const link = postElement.querySelector('.cardLink2');
             title.textContent = page.nome;
             desc.textContent = page.descricao;
             tags.textContent = page.tag;
+            link.setAttribute('href', `./perfil-vizualizado.html?id=${page.id}`)
 
             postElement.querySelector('.card').classList.add("inst-value")
             instContainer.appendChild(postElement);
@@ -217,3 +218,14 @@ document.getElementById("searchInput").addEventListener("keydown", function(even
 window.onload = () => {
     // cards[index].classList.remove("hide");
 };
+//botão inst
+const btnInst = document.getElementById('btn-inst');
+
+btnInst.addEventListener('click', function() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const id = urlParams.get('id');
+    const url = `./perfil-vizualizado.html?id=${id}`;
+
+    window.location.href = url;
+});
