@@ -1,15 +1,13 @@
 article{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 #info-titulo{
+    align-self: center;
     margin: 0%;
     font-size: 40px;
     font-style: oblique;
-    align-self: center;
     color: #f20531;
     font-weight: 3000px;
 }
