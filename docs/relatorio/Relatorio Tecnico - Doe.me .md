@@ -265,3 +265,20 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 # Referências
 
 [BAGOLIN, Izete Pengo; SALATA, André; MATTOS, Ely José de. **Pobreza Social no Brasil: 2012-2021.** Laboratório de Desigualdades, Pobreza e Mercado de Trabalho – PUCRS Data Social. Porto Alegre, 2022.](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf)
+
+# Projeto da Solução
+Para a solução do problema foi projetado o site DOE.ME.
+O DOE.ME é uma plataforma que permite que qualquer pessoa, em qualquer lugar do mundo, possa postar suas doações e contribuir para causas sociais de sua escolha. Ao se cadastrar no site, os usuários podem criar anúncios detalhados sobre os itens que desejam doar, como roupas, alimentos, móveis ou até mesmo serviços voluntários.
+
+Por outro lado, instituições de caridade também podem se cadastrar no DOE.ME e criar perfis para divulgar suas atividades e necessidades. Essas organizações podem descrever seus projetos, metas e como as doações recebidas serão utilizadas. Dessa forma, os doadores têm acesso a informações valiosas sobre as instituições e podem fazer escolhas informadas sobre onde direcionar suas contribuições.
+
+## Tecnologias Utilizadas
+Foi utilizado para o projeto HTML/CSS/JS e principalmente um servidor do replit, JSON SERVER.
+Também foi ultilizado uma API para um mapa, o GEOLOCATION api.
+
+# Avaliação da Aplicação
+Para testar as aplicações foram feitos cadastros de perfils fictícios para testar se as informações iam para o Json server e para o mapa.
+
+# Referências
+[BAGOLIN, Izete Pengo; SALATA, André; MATTOS, Ely José de. **Pobreza Social no Brasil: 2012-2021.** Laboratório de Desigualdades, Pobreza e Mercado de Trabalho – PUCRS Data Social. Porto Alegre, 2022.](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf)
+
