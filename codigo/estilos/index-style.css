@@ -1,22 +1,32 @@
 article{
     margin: 0 auto;
     max-width: 900px;
+    margin-bottom: 30px;
 }
 
 #info-titulo{
-    align-self: center;
-    margin: 0%;
     font-size: 40px;
     font-style: oblique;
     color: #f20531;
     font-weight: 3000px;
+    margin: 0 auto;
 }
 
 #info-slogan{
-    margin: 0%;
     font-style: oblique;
     font-weight: 700;
+    text-align: center;
+}
 
+.info-container{
+    background-color: #D90452;
+    columns: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+.info-container h3, .info-container p{
+    color: white;
 }
 
 .texto{
