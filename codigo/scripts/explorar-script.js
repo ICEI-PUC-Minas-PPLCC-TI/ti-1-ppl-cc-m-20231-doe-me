@@ -2,6 +2,16 @@ const postContainer = document.querySelector('.post-container');
 const instContainer = document.querySelector('.inst-container');
 const searchBox = document.querySelector('#searchInput');
 
+window.addEventListener('DOMContentLoaded', function() {
+    var url = window.location.href;
+    var docUrl = '/doc'; // URL para a exibição do documento
+  
+    if (url.includes(docUrl)) {
+      // Se a URL contém "/doc", carregue o documento
+      var contentDiv = document.getElementById('content');
+      contentDiv.innerHTML = '<object data="../doc/index.html" width="100%" height="600px"></object>';
+    }
+  });
 
 let posts = [];
 
