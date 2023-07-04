@@ -261,24 +261,44 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-
-# Referências
-
-[BAGOLIN, Izete Pengo; SALATA, André; MATTOS, Ely José de. **Pobreza Social no Brasil: 2012-2021.** Laboratório de Desigualdades, Pobreza e Mercado de Trabalho – PUCRS Data Social. Porto Alegre, 2022.](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf)
-
 # Projeto da Solução
-Para a solução do problema foi projetado o site DOE.ME.
-O DOE.ME é uma plataforma que permite que qualquer pessoa, em qualquer lugar do mundo, possa postar suas doações e contribuir para causas sociais de sua escolha. Ao se cadastrar no site, os usuários podem criar anúncios detalhados sobre os itens que desejam doar, como roupas, alimentos, móveis ou até mesmo serviços voluntários.
 
-Por outro lado, instituições de caridade também podem se cadastrar no DOE.ME e criar perfis para divulgar suas atividades e necessidades. Essas organizações podem descrever seus projetos, metas e como as doações recebidas serão utilizadas. Dessa forma, os doadores têm acesso a informações valiosas sobre as instituições e podem fazer escolhas informadas sobre onde direcionar suas contribuições.
+Para solucionar o tema em questão, foi criada uma página Web com um sistema simples e dinâmico de postagens, que reúne as pessoas dipostas a fazer doações com os indivíduos interessados.
+A plataforma permite que qualquer pessoa, em qualquer lugar do mundo, possa postar suas doações e contribuir para causas sociais de sua escolha. Ao se cadastrar no site, os usuários podem criar anúncios detalhados sobre os itens que desejam doar, como roupas, alimentos, móveis ou até mesmo serviços voluntários.
+Por outro lado, instituições de caridade também podem se cadastrar no site e criar perfis para divulgar suas atividades e necessidades. Essas organizações podem descrever seus projetos, metas e como as doações recebidas serão utilizadas. Dessa forma, os doadores têm acesso a informações valiosas sobre as instituições e podem fazer escolhas informadas sobre onde direcionar suas contribuições.
+Para isso, foram englobadas funcionalidades de verificação da qualidade dos produtos cedidos, feedback e opinião sobre o serviço prestado e visualização das instituições e dos itens de maneira intuitiva e visual.
 
 ## Tecnologias Utilizadas
-Foi utilizado para o projeto HTML/CSS/JS e principalmente um servidor do replit, JSON SERVER.
-Também foi ultilizado uma API para um mapa, o GEOLOCATION api.
-![Tela do funcionamento do Json Server do Replit](images/iamgemrelatorio.png)
+
+Para a resolução deste projeto foram utilizadas diversas ferramentas, tal como o GitHub, o Git, o Discord, o Figma, o Visual Code Studio, o Repl.it e o Google Drive.
+Em princípio, o Github e o Git foram usados para documentação e hospedagem de todo o conteúdo, além de permitir maior facilidade de trabalho em equipe por possibilitar que as novas versões sejam visualizadas por todos os membros.
+Por sua vez, empregamos o Discord para facilitar e agilizar a comunicação entre a equipe.
+O Figma e o Google Drive foram responsáveis pela montagem e preparação visual do site, e pela manutenção dos documentos e códigos utilizados, respectivamente.
+Por fim, o Visual Code Studio e o Repl.it foram manuseados para produzir o código base do projeto e hospedagem do banco de dados. 
+
+## Arquitetura da solução
+
+![FotoDaArquitetura](images/arquitetura.png)
+> As páginas Web foram hospedadas por meio do GitHub Pages.
+> Apenas uma API foi usada para a construção da página que contém o mapa.
+> Os dados salvos pela site são armazenados em formato de JSON externamente, além de contar com o uso do Session Storage para funcionalidades ligadas ao login .
+
 # Avaliação da Aplicação
-Para testar as aplicações foram feitos cadastros de perfils fictícios para testar se as informações iam para o Json server e para o mapa.
+
+Foram utilizados cenários na parte da manipulação dos dados (JSON), como informações fictícias para controle do funcionamento do registro de usuários e do login. 
+Além disso, houve uma manipulação da localização do usuário como de forma a encontrar erros para a funcionalidade do mapa.
+
+## Plano de Testes
+
+Foi feito uso principal do teste da caixa preta, de forma a verificar e avaliar os aspectos externos do sistema. 
+O principal foco das diligências estava em conferir se as funções que deveriam ser desempenhadas pelo programa eram realizadas satisfatoriamente.
+Caso fosse visualizado algum erro de implementação ou desconfiguração estética, o código era revisado até que o problema fosse solucionado.
+
+## Registros de Testes
+
+As principais páginas em que os testes foram efetivados foram a de visualização das postagens e das instituições, que contaram com alguns erros de formatação e de relacionamento com o banco de dados.
+Esses erros, porém, foram facilmente detectados e corrigidos após uma breve inspeção e vistoria pelas funcionalidades do site.
 
 # Referências
-[BAGOLIN, Izete Pengo; SALATA, André; MATTOS, Ely José de. **Pobreza Social no Brasil: 2012-2021.** Laboratório de Desigualdades, Pobreza e Mercado de Trabalho – PUCRS Data Social. Porto Alegre, 2022.](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf)
 
+[BAGOLIN, Izete Pengo; SALATA, André; MATTOS, Ely José de. **Pobreza Social no Brasil: 2012-2021.** Laboratório de Desigualdades, Pobreza e Mercado de Trabalho – PUCRS Data Social. Porto Alegre, 2022.](https://www.pucrs.br/datasocial/wp-content/uploads/sites/300/2023/02/Estudo-Pobreza-Social-19.01_final.pdf)
