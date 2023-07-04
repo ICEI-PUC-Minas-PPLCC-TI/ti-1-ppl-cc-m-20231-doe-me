@@ -44,6 +44,7 @@ function renderComment(comment) {
     const li = document.createElement('li');
     const email = document.createElement('strong');
     const commentText = document.createElement('p');
+    const commentList = document.getElementById("commentList");
 
     email.textContent = comment.email;
     commentText.textContent = comment.comment;
@@ -51,6 +52,14 @@ function renderComment(comment) {
     li.appendChild(email);
     li.appendChild(document.createElement('br'));
     li.appendChild(commentText);
+
+    commentList.style.marginTop = "20px";
+    commentList.style.background = "#fff";
+    commentList.style.width = "40%";
+    commentList.style.borderRadius = "10px";
+    commentList.style.border = "1px solid black";
+    commentList.style.padding = "10px";
+    commentList.style.boxShadow = "5px 5px 10px rgba(0, 0, 0, .212)";
 
     commentList.appendChild(li);
 }
