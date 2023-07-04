@@ -275,7 +275,7 @@ Por outro lado, instituições de caridade também podem se cadastrar no DOE.ME 
 ## Tecnologias Utilizadas
 Foi utilizado para o projeto HTML/CSS/JS e principalmente um servidor do replit, JSON SERVER.
 Também foi ultilizado uma API para um mapa, o GEOLOCATION api.
-
+![Tela do funcionamento do Json Server do Replit](images/iamgemrelatorio.png)
 # Avaliação da Aplicação
 Para testar as aplicações foram feitos cadastros de perfils fictícios para testar se as informações iam para o Json server e para o mapa.
 
